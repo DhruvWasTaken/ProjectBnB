@@ -8,7 +8,11 @@ function search_blog() {
             x[i].style.display="none"; 
         } 
         else { 
-            x[i].style.display="card-body";                  
+            x[i].style.display="card-body";  
+			setTimeout(function(){
+   			window.location.reload(1);
+			}, 5000);
         } 
-    } 
+    }
 } 
+
